@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "113424394158",
+    "firebase_url": "https://lms-e-inscription.firebaseio.com",
+    "project_id": "lms-e-inscription",
+    "storage_bucket": "lms-e-inscription.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113424394158:android:06602cba9ac8c2bc",
+        "android_client_info": {
+          "package_name": "com.stpprojects.lms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113424394158-1ng6ltcehv4o8hdr27oh956nmd2lqfhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2v6gbgy_ZdaNE9aXpQYQI2afjzulptI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113424394158-1ng6ltcehv4o8hdr27oh956nmd2lqfhu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

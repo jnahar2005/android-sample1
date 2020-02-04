@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".allcoursesinneractivities.QuizListActivity">
+
+    <include layout="@layout/toolbar" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:textColor="@color/clr_black"
+        android:textSize="18dp" />
+        </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:id="@+id/fillblanklayout"
+        android:visibility="gone">
+
+
+        <EditText
+            android:id="@+id/editAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/black_bordar"
+            android:hint="Enter answer here"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:visibility="gone"
+        android:id="@+id/truefalseLayout">
+
+
+      <RadioGroup
+          android:id="@+id/radio"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+
+      </RadioGroup>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvPrevious"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Previous"
+                android:background="@color/clr_loginbtn_bg"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="@color/clr_white"
+                android:layout_marginRight="2dp"
+                />
+            <TextView
+                android:id="@+id/tvSubmitQuiz"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Submit Question"
+                android:background="@color/clr_loginbtn_bg"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textColor="@color/clr_white"/>
+            <TextView
+                android:id="@+id/tvNext"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="  Next  "
+                android:background="@color/clr_loginbtn_bg"
+                android:padding="10dp"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/clr_white"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

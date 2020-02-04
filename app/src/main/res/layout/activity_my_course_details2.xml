@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/clr_gray"
+    android:orientation="vertical"
+    tools:context=".allcoursesinneractivities.CourseDatailActivity">
+
+    <include layout="@layout/toolbar" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/clr_gray"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#C0000000">
+
+                        <ImageView
+                            android:id="@+id/iv_course"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:alpha="0.4"
+                            android:background="@drawable/defaultimage"
+                            android:scaleType="centerCrop" />
+
+
+                        <TextView
+                            android:id="@+id/tv_course_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginTop="10dp"
+                            android:paddingLeft="8dp"
+                            android:paddingTop="8dp"
+                            android:paddingRight="8dp"
+                            android:paddingBottom="8dp"
+                            android:text=" "
+                            android:textAlignment="center"
+                            android:textColor="@color/clr_white"
+                            android:textSize="16dp"
+                            android:textStyle="bold|italic" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_JoinCourse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="175dp"
+                        android:background="@color/clr_loginbtn_bg"
+                        android:gravity="center"
+                        android:paddingLeft="30dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="30dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/JoinSession"
+                        android:textColor="@color/clr_white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_course_desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:padding="5dp"
+                        android:text=" "
+                        android:textColor="@color/clr_black"
+                        android:textSize="14dp"
+                        android:textStyle="italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_student_rnroll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="5 Student Enroll"
+                    android:textAllCaps="true"
+                    android:textColor="@color/pure_black"
+                    android:textSize="16dp"
+                    android:textStyle="italic|bold" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvStartCourse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/clr_loginbtn_bg"
+                    android:gravity="center"
+                    android:padding="13dp"
+                    android:text="@string/Startcourse"
+                    android:textColor="@color/clr_white"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/tv_link_knowmore"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/button_gray_color"
+                    android:gravity="center"
+                    android:padding="13dp"
+                    android:text="@string/KnowMore"
+                    android:textColor="@color/clr_white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

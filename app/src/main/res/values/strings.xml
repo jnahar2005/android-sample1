@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">eINSCRIPTIONS LMS</string>
+
+
+    <string name="facebook_app_id" translatable="false">274255213298890</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb274255213298890</string>
+
+    <string name="session_expire_msg">Your session has expired, please login again.</string>
+    <string name="ApiFailureError">Api failure</string>
+    <string name="ServerError">Server Error</string>
+    <string name="RuntimeException">RuntimeException</string>
+    <string name="ok">OK</string>
+    <string name="login">Login</string>
+    <string name="signup">SIGNUP</string>
+    <string name="registration">Registration</string>
+    <string name="register">REGISTER</string>
+    <string name="firstname">First Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="lastname">Last Name</string>
+    <string name="mobilenumber">Mobile Number</string>
+    <string name="enteremail">Enter email</string>
+    <string name="entervailidemail">Enter vailid email</string>
+    <string name="enterpassword">Enter password</string>
+    <string name="enterconfirmpassword">Enter confirm password</string>
+    <string name="passwordnotmatch">Password not match</string>
+    <string name="entermono">Enter mobile number</string>
+    <string name="enterlastname">Enter last name</string>
+    <string name="enterfirstname">Enter first name</string>
+    <string name="pleasewait">Please wait</string>
+    <string name="WhoopsThereWasAnErrorPleaseTryAgainLater">Oops! there was an unexpected error. Please try again later.</string>
+    <string name="PleaseCheckIntenetconection">Please check internet connection</string>
+    <string name="emailaddress">Email Address</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="postalcode">Postal code</string>
+    <string name="enteraddress">Enter address</string>
+    <string name="entercity">Enter city</string>
+    <string name="entercountry">Enter country</string>
+    <string name="enterpostalcode">Enter postal code</string>
+    <string name="home">Home</string>
+    <string name="mycourse">My Course</string>
+    <string name="allcourse">All Course</string>
+    <string name="logout">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="want_to_exit">Do you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="userprofile">User Profile</string>
+    <!--<string name="lmsacademy">LMS <font color="#FF9900">Academy</font></string>-->
+    <string name="lmsacademy"><font color="#FF9900">LMS</font> Academy</string>
+    <string name="registrecourse">Register Course</string>
+    <string name="clicktoknowmore">Click to know more</string>
+    <string name="info">Information</string>
+    <string name="JoinCourse">Join Course</string>
+    <string name="Courses">Courses Name</string>
+    <string name="Total">Total</string>
+    <string name="OnlinePaymentOptions">Online Payment Options: use Credit Cards/Debit Cards/Net-Banking</string>
+    <string name="OfflinePaymentOptions">Offline Payment Options:Cheque Payment/Direct Bank Transfer/Demand Drafts/Case Payment(An email will be sent to you with detailed instructions)</string>
+    <string name="registretocourse">Register To Course</string>
+    <string name="CoursesPrice">Courses Price</string>
+    <string name="CoursesDetails">Courses Details</string>
+    <string name="Startcourse">Start Course</string>
+    <string name="ReviewCourse">Review Course</string>
+    <string name="FinishCourse">Finish Course</string>
+    <string name="Previous">Previous</string>
+    <string name="Next">Next   </string>
+    <string name="MarkCompleted">Mark Complete</string>
+    <string name="WriteAReview">Write a Review</string>
+    <string name="ReviewTitle">Review Title</string>
+    <string name="PostReview">Post Review</string>
+    <string name="SubmitQuiz">Submit Quiz</string>
+    <string name="CheckResult">Check Result</string>
+    <string name="ReviewAddedSucessfully">Review Added Successfully</string>
+    <string name="FirstNameshouldbeminimulatters">FirstName should have minimum 3 latters</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="LMSAcademy">LMS Academy</string>
+    <string name="ShareApp">Share App</string>
+    <string name="Alert">Alert</string>
+    <string name="CoursePurchased">Purchased Course</string>
+    <string name="SendPassword">Send Password</string>
+    <string name="passwordsharedonregisteremail">password shared on registered email</string>
+    <string name="WelcometoeinscriptionLMSs">Welcome to einscription LMS</string>
+    <string name="CoursesStatus">Courses Status</string>
+    <string name="EditProfile">Edit Profile</string>
+    <string name="Save">Save</string>
+    <string name="Description">Description</string>
+    <string name="review">Review</string>
+    <string name="KnowMore">Know More</string>
+    <string name="signupwith">SIGN UP WITH</string>
+    <string name="signin_failed">Google Sign In Failed!</string>
+    <string name="PleaseCompleteProfileFirst1">Please Complete Profile First</string>
+    <string name="AddReview">Add Review</string>
+    <string name="JoinSession">Join Session</string>
+    <string name="InstructorOfflineRightnow">Instructor Offline Right Now</string>
+    <string name="CourseExpired">Course Expired</string>
+
+</resources>
+

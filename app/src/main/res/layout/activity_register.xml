@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:background="@color/clr_gray"
+        android:orientation="vertical"
+        tools:context=".RegisterActivity">
+
+        <include layout="@layout/toolbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/emailEdtTxt"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/email"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:padding="5dp"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/clr_black"
+                    android:textSize="14sp"
+                    android:maxLength="50"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/passwordEdtTxt"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/password"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:padding="5dp"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/clr_black"
+                    android:textSize="14sp"
+                    android:maxLength="10"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/cfrmPasswordEdtTxt"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/confirmpassword"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:padding="5dp"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/clr_black"
+                    android:textSize="14sp"
+                    android:maxLength="10"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/firstNameEdtTxt"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/firstname"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/clr_black"
+                    android:textSize="14sp"
+                    android:maxLength="50"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/lastNameEdtTxt"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/lastname"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/clr_black"
+                    android:textSize="14sp"
+                    android:maxLength="50"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/mobileNumEdtTxt"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/mobilenumber"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/clr_black"
+                    android:textSize="14sp"
+                    android:maxLength="10"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/addressEdtTxt"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/address"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPostalAddress"
+                    android:padding="5dp"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/clr_black"
+                    android:textSize="14sp"
+                    android:maxLength="80"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/cityEdtTxt"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/city"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:text="indore"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/clr_black"
+                    android:textSize="14sp"
+                    android:maxLength="50"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/conuntryEdtTxt"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/country"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:padding="5dp"
+                    android:text="India"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/clr_black"
+                    android:textSize="14sp"
+                    android:maxLength="50"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/postalcodeEdtTxt"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/postalcode"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/clr_black"
+                    android:textSize="14sp"
+                    android:maxLength="10"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/tv_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30sp"
+                android:layout_marginBottom="40sp"
+                android:background="@drawable/bg_blue_filled"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:text="@string/register"
+                android:textColor="@color/clr_white"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

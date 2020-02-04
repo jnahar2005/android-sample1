@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/clr_white2"
+    tools:context=".fragments.HomeFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="3dp"
+                app:cardCornerRadius="5dp">
+
+
+                <LinearLayout
+                    android:id="@+id/linearVideo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_play_button" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginLeft="40dp"
+                        android:text="Video based learning"
+                        android:textColor="@color/clr_black"
+                        android:textSize="16dp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="3dp"
+                app:cardCornerRadius="5dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/linearVideo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_podcast" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginLeft="40dp"
+                    android:text="Live podcast"
+                    android:textColor="@color/clr_black"
+                    android:textSize="16dp"
+                    android:textStyle="bold|italic" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="3dp"
+                app:cardCornerRadius="5dp"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/layoutWebinar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_webinar" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginLeft="40dp"
+                    android:text="Webinar "
+                    android:textColor="@color/clr_black"
+                    android:textSize="16dp"
+                    android:textStyle="bold|italic" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="3dp"
+                app:cardCornerRadius="5dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/linearVideo3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_television"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginLeft="40dp"
+                    android:text="Live video broadcast"
+                    android:textColor="@color/clr_black"
+                    android:textSize="16dp"
+                    android:textStyle="bold|italic" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="3dp"
+                app:cardCornerRadius="5dp">
+                <LinearLayout
+                    android:id="@+id/linerlayou5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_pdf_file_format_symbol" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:layout_marginLeft="40dp"
+                    android:text="Pdf based learning"
+                    android:textColor="@color/clr_black"
+                    android:textSize="16dp"
+                    android:textStyle="bold|italic" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="3dp"
+                app:cardCornerRadius="5dp">
+                <LinearLayout
+                    android:id="@+id/ll_testseries"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_test" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginLeft="40dp"
+                        android:text="Test Series"
+                        android:textColor="@color/clr_black"
+                        android:textSize="16dp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="3dp"
+                app:cardCornerRadius="5dp">
+                <LinearLayout
+                    android:id="@+id/ll_chat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/ic_user_chat" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginLeft="40dp"
+                        android:text="Chat"
+                        android:textColor="@color/clr_black"
+                        android:textSize="16dp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="3dp"
+                app:cardCornerRadius="5dp"
+                android:visibility="gone">
+                <LinearLayout
+                    android:id="@+id/ll_broadcastvideo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/ic_online_video" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginLeft="40dp"
+                        android:text="BroadCast"
+                        android:textColor="@color/clr_black"
+                        android:textSize="16dp"
+                        android:textStyle="bold|italic" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Sample Video"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/pure_black"
+                android:textStyle="italic|bold" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/videoList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:nestedScrollingEnabled="false"
+                android:orientation="horizontal"
+                android:scrollbars="none" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

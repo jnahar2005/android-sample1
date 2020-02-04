@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_LMSAcademy"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/app_name" />
+
+        <item
+            android:id="@+id/nav_mycourses"
+            android:icon="@drawable/ic_book"
+            android:title="@string/mycourse" />
+        <item
+            android:id="@+id/nav_allcourses"
+            android:icon="@drawable/ic_books_stack_of_three"
+            android:title="@string/allcourse" />
+
+        <item
+            android:id="@+id/nav_coursesStatus"
+            android:icon="@drawable/ic_info_solid_circular_button"
+            android:title="@string/CoursesStatus" />
+
+        <item
+            android:id="@+id/nav_ShareApp"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="@string/ShareApp" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+
+    </group>
+</menu>

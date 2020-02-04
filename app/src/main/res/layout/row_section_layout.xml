@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvsectionName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@color/Section_gray"
+        android:textColor="@color/clr_white"
+        android:textAllCaps="true"
+        android:textSize="16dp"
+        android:gravity="left|center_vertical"
+       />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="center_vertical">
+
+
+    <TextView
+        android:id="@+id/tvUnitname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="sfdg"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/ic_right_arrow"
+        android:textColor="@color/clr_black"
+        android:textSize="14dp"
+        android:gravity="left|center_vertical"/>
+
+
+        <Button
+            android:id="@+id/btnCheckresult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CheckResult"
+            android:textColor="@color/clr_white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:background="@color/pure_black"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLineView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/clr_black"/>
+
+
+</LinearLayout>

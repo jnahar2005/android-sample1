@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".allcoursesinneractivities.EditProfileActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/editFname"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/firstname"
+                    android:imeOptions="actionNext"
+                    android:padding="5dp"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/pure_black"
+                    android:textSize="14sp"
+                    android:singleLine="true"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:textColorHint="@color/clr_black"
+                android:layout_marginTop="15dp">
+
+                <EditText
+                    android:id="@+id/editLname"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/lastname"
+                    android:imeOptions="actionNext"
+                    android:padding="5dp"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/pure_black"
+                    android:textSize="14sp"
+                   android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/editEmail"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/email"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:padding="5dp"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/pure_black"
+                    android:textSize="14sp"
+                    android:maxLength="50" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/editMobilenumber"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/mobilenumber"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/pure_black"
+                    android:textSize="14sp"
+                    android:maxLength="10" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/editAddress"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/address"
+                    android:imeOptions="actionNext"
+                    android:padding="5dp"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/pure_black"
+                    android:textSize="14sp"
+                   android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/editCity"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/city"
+                    android:imeOptions="actionNext"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/pure_black"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/editCountry"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/country"
+                    android:imeOptions="actionNext"
+                    android:padding="5dp"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/pure_black"
+                    android:textSize="14sp"
+                    android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_black_oultine"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:textColorHint="@color/clr_black">
+
+                <EditText
+                    android:id="@+id/editPincode"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/postalcode"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textColor="@color/clr_registrationtxt"
+                    android:textColorHint="@color/pure_black"
+                    android:textSize="14sp"
+                    android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/tvSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30sp"
+                android:layout_marginBottom="40sp"
+                android:background="@drawable/bg_blue_filled"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textAlignment="center"
+                android:text="@string/Save"
+                android:textColor="@color/clr_white"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

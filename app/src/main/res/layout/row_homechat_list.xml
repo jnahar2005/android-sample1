@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="3dp"
+        android:visibility="visible"
+        app:cardCornerRadius="5dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/iv_course"
+                android:layout_width="65dp"
+                android:layout_height="60dp"
+                android:padding="2dp"
+                android:background="@drawable/defaultimage"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:alpha="0.1"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_coursename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="65dp"
+                android:layout_toRightOf="@+id/iv_course"
+                android:paddingEnd="5dp"
+                android:text=""
+                android:textColor="@color/clr_black"
+                android:textSize="16dp"
+                android:textStyle="bold|italic" />
+
+
+            <ImageView
+                android:id="@+id/imagechat"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/image_shadow"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:src="@drawable/ic_speech_bubbles_with_ellipsis"
+                android:textColor="@color/pure_black" />
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
